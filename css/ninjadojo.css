@@ -1,3 +1,12 @@
+/*typography customisation*/
+
+h1.title.is-2>a,
+h2.title.is-4,
+.hero.is-info>.box>h2.title.is-4 {
+    color: #e1559a
+}
+
+
 /* hero customisation*/
 
 .hero {
@@ -10,7 +19,7 @@
 }
 
 .hero.is-info.is-bold {
-    background-image: linear-gradient(125deg, #d02af4 0, #e25995 61%, #f9b232 100%);
+    background-image: linear-gradient(125deg, #d02af4 0, #e1559a 61%, #f9b232 100%);
 }
 
 
@@ -24,7 +33,7 @@
 
 .button.is-info.is-inverted {
     background-color: #fff;
-    color: #d02af4;
+    color: #e1559a;
 }
 
 .button.is-info.is-outlined {
@@ -34,9 +43,22 @@
     font-weight: 600;
 }
 
-.button.is-info.is-outline:focus,
+.button:focus.is-info.is-outline,
 .button.is-info.is-outline:hover {
     background-color: #fff;
     border-color: #fff;
-    color: #d02af4;
+    color: #e1559a;
+}
+
+.button.is-success {
+    background-color: #e1559a;
+    border-color: #e1559a;
+    color: #fff;
+}
+
+.button.is-success.is-outlined {
+    background-color: transparent;
+    border-color: #e1559a;
+    color: #e1559a;
+    font-weight: 600;
 }
