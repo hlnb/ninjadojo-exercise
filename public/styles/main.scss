@@ -1,0 +1,67 @@
+/*importing bulma sass*/
+
+@import '../vendors/bulma/bulma.sass';
+
+/*customising variables*/
+
+$primary: #e1559a;
+$secondary: #d02af4;
+$highlight: #f9b232;
+$white: #ffffff;
+
+/* custom styles*/
+
+h1.title.is-2>a,
+h2.title.is-4,
+.hero.is-info>.box>h2.title.is-4 {
+    color: $primary;
+}
+
+.hero.is-info {
+    background: $secondary;
+}
+
+.hero.is-info.is-bold {
+    background-image: linear-gradient(125deg, $secondary 0, $primary 61%, $highlight 100%);
+}
+
+
+/*button section customisation*/
+
+.button {
+    margin-top: calc(1em - 1px);
+    margin-right: calc(1em - 1px);
+    margin-left: calc(1em - 1px);
+}
+
+.button.is-info.is-inverted {
+    background-color: $white;
+    color: $primary;
+}
+
+.button.is-info.is-outlined {
+    background-color: transparent;
+    border-color: $white;
+    color: $white;
+    font-weight: 600;
+}
+
+.button:focus.is-info.is-outline,
+.button.is-info.is-outline:hover {
+    background-color: $white;
+    border-color: $white;
+    color: $primary;
+}
+
+.button.is-success {
+    background-color: $primary;
+    border-color: $primary;
+    color: $white;
+}
+
+.button.is-success.is-outlined {
+    background-color: transparent;
+    border-color: $primary;
+    color: $primary;
+    font-weight: 600;
+}
