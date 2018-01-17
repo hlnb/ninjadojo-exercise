@@ -1,0 +1,42 @@
+/* hero customisation*/
+
+.hero {
+    padding-bottom: .5em;
+    margin-bottom: 2em;
+}
+
+.hero.is-info {
+    background: #d02af4
+}
+
+.hero.is-info.is-bold {
+    background-image: linear-gradient(125deg, #d02af4 0, #e25995 61%, #f9b232 100%);
+}
+
+
+/*button section customisation*/
+
+.button {
+    margin-top: calc(1em - 1px);
+    margin-right: calc(1em - 1px);
+    margin-left: calc(1em - 1px);
+}
+
+.button.is-info.is-inverted {
+    background-color: #fff;
+    color: #d02af4;
+}
+
+.button.is-info.is-outlined {
+    background-color: transparent;
+    border-color: #fff;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.button.is-info.is-outline:focus,
+.button.is-info.is-outline:hover {
+    background-color: #fff;
+    border-color: #fff;
+    color: #d02af4;
+}

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>ninjadojo - take home </title>
+<!-- fontawesome  -->
+<script src="https://use.fontawesome.com/2ad26713b8.js"></script>
+    <!-- Goolge fonts -->
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+   <!-- Bulma Version 0.6.2 -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.2/css/bulma.min.css">
+   <link rel="stylesheet" type="text/css" href="css/ninjadojo.css">
+</head>
+<body>
+   <header>
+      <nav class="navbar">
+         <div class="container is-fluid">
+            <div class="navbar-brand">
+               <a class="navbar-item" href="#">
+               Company
+               </a>
+               <span class="navbar-burger burger" data-target="navbarMenu">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+               </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+               <div class="navbar-end">
+                  <a class="navbar-item is-active" href="#about">
+                     About
+                  </a>
+                  <a class="navbar-item" href="#products">
+                     Products
+                  </a>
+                  <a class="navbar-item" href="#contact">
+                     Contact
+                  </a>
+               </div>
+            </div>
+         </div>
+      </nav>
+   </header>
+   <section class="hero is-info is-medium is-bold">
+      <div class="hero-body">
+         <div class="container has-text-centered">
+         <h1 class="title">Lorem Ipsum</h1>
+         <h2 class="subtitle">Lorem Ipsum</h2>
+         <button class="button is-medium is-info is-inverted">button 1</button>
+         <button class="button is-medium is-info is-outlined">button 2</button>
+         </div>
+      </div>
+      <div class="box is-radiusless">
+       <a id="about"></a>  <h2>About Us</h2>
+         <div class="columns">
+            <div class="column">
+         <p class="has-text">
+             Captain, why are we out here chasing comets? You're going to be an interesting companion, Mr. Data. Wouldn't that bring
+            about chaos? In all trust, there is the possibility for betrayal. I guess it's better to be lucky than good. Mr. Worf, you
+            sound like a man who's asking his friend if he can start dating his sister. Fear is the true enemy, the only enemy.
+         </p>
+         </div>
+         <div class="column">
+            <p class="has-text">
+                Captain, why are we out here chasing comets? You're going to be an interesting companion, Mr. Data. Wouldn't that bring
+               about chaos? In all trust, there is the possibility for betrayal. I guess it's better to be lucky than good. Mr. Worf, you
+               sound like a man who's asking his friend if he can start dating his sister. Fear is the true enemy, the only enemy.
+            </p>
+         </div>
+         </div>
+      </div>
+   </section><!--header nav and hero section-->
+<main>
+   <section class="container is-fluid" style="margin-bottom: 2em;">
+    <a id="products"></a>
+      <div class="columns">
+         <div class="column is-two-thirds">
+            <figure class="image is-4by3">
+               <img src="images/hal-gatewood-484498.jpg" alt="Product Description">
+            </figure>
+         </div>
+         <div class="column is-one-third ">
+            <h2 class="title is-4">
+               Product One
+            </h2>
+            <p>
+                A surprise party? Mr. Worf, I hate surprise parties. I would *never* do that to you. Could someone survive inside a transporter
+               buffer for 75 years? Some days you get the bear, and some days the bear gets you. Smooth as an android's bottom, eh, Data?
+               Travel time to the nearest starbase? Fate. It protects fools, little children, and ships named "Enterprise." Earl Grey tea,
+               watercress sandwiches... and Bularian canapés? Are you up for promotion? They were just sucked into space. Computer, belay
+               that order.
+               </p>
+               <p class="has-text-centered">
+               <a class="button is-medium is-danger is-outlined">
+                  Action
+               </a>
+            </p>
+         </div>
+      </div>
+      <div class="columns">
+         <div class="column is-one-third ">
+            <h2 class="title is-4">
+               Product Two
+            </h2>
+            <p>
+               A surprise party? Mr. Worf, I hate surprise parties. I would *never* do that to you. Could someone survive inside a transporter
+               buffer for 75 years? Some days you get the bear, and some days the bear gets you. Smooth as an android's bottom,
+               eh, Data? Travel time to the nearest starbase? Fate. It protects fools, little children, and ships named "Enterprise."
+               Earl Grey tea, watercress sandwiches... and Bularian canapés? Are you up for promotion? They were just sucked into
+               space. Computer, belay that order.
+            </p>
+            <p class="has-text-centered">
+               <a class="button is-danger is-outlined">
+                  Action
+               </a>
+            </p>
+         </div>
+         <div class="column is-two-thirds">
+            <figure class="image is-4by3">
+               <img src="images/jesus-kiteque-224069.jpg" alt="Product Description">
+            </figure>
+         </div>
+      </div>
+   </section><!-- product section-->
+   <section class="container" style="background: #e4e4e4; margin-bottom: 0.2em; padding-bottom: 2em;" >
+    <div class="columns">
+        <div class="column is-one-third is-offset-one-third">
+
+        <a id="contact"></a>
+        <h2 class="title is-4 has-text-centered">Contact Us</h2>
+        <form action="#" method="post" style="padding: 1em;background: #ffffff; box-shadow: 2px 2px 2px 2px #d4d4d4;">
+            <div class="field">
+                <label for="name" class="label is-hidden">Name</label>
+                <div class="control">
+                    <input class="input" type="text" name="name" placeholder="Name">
+                </div>
+            </div>
+            <div class="field">
+                <label for="email" class="label is-hidden">Email</label>
+                <p class="control">
+                    <input class="input" type="email" name="email" placeholder="Email">
+                </p>
+            </div>
+            <div class="field">
+                <label for="message" class="label is-hidden">Message</label>
+                <div class="control">
+                    <textarea class="textarea" placeholder="Message" name="message"></textarea>
+                </div>
+            </div>
+
+            <div class="field">
+                <p class="control has-text-right">
+                    <button class="button is-success">
+                        Submit
+                    </button>
+                </p>
+            </div>
+        </form>
+        </div>
+
+    </div>
+   </section><!--contact form section-->
+</main><!--main section of page -->
+<footer class="footer" style="background: #fff;">
+    <div class="container is-fluid">
+    <div class="columns">
+        <div class="column is-one-third">
+            <h4>Company</h4>
+        </div>
+        <div class="column is-one-third">
+            <address>
+                123 Address St<br>
+                Suburb, 0000 <br>
+                State, Country
+            </address>
+        </div>
+        <div class="column is-one-third">
+           <p>P: <a href="phone: +614 12 345 678">+614 12 345 678</a></p> 
+           <p>E: <a href="mailto:email@address">email@address</a></p>
+        </div>
+    </div>
+</div>
+</footer>
+<!--scripts-->
+   <script async type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
